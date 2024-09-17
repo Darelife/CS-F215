@@ -1,0 +1,59 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00AC36C0 .scope module, "t_function" "t_function" 2 2;
+ .timescale 0 0;
+v00AC8A28_0 .var "D", 0 0;
+v00AC8A80_0 .net "Q", 0 0, v00AC3308_0; 1 drivers
+v00AC8AD8_0 .var "enable", 0 0;
+S_00AC3228 .scope module, "d1" "d_latch" 2 7, 3 1, S_00AC36C0;
+ .timescale 0 0;
+v00AC32B0_0 .net "D", 0 0, v00AC8A28_0; 1 drivers
+v00AC3308_0 .var "Q", 0 0;
+v00AC89D0_0 .net "enable", 0 0, v00AC8AD8_0; 1 drivers
+E_00AC7540 .event edge, v00AC32B0_0, v00AC89D0_0;
+    .scope S_00AC3228;
+T_0 ;
+    %wait E_00AC7540;
+    %load/v 8, v00AC89D0_0, 1;
+    %jmp/0xz  T_0.0, 8;
+    %load/v 8, v00AC32B0_0, 1;
+    %set/v v00AC3308_0, 8, 1;
+T_0.0 ;
+    %jmp T_0;
+    .thread T_0, $push;
+    .scope S_00AC36C0;
+T_1 ;
+    %delay 40, 0;
+    %vpi_call 2 9 "$finish";
+    %end;
+    .thread T_1;
+    .scope S_00AC36C0;
+T_2 ;
+    %set/v v00AC8AD8_0, 1, 1;
+    %set/v v00AC8A28_0, 1, 1;
+    %delay 10, 0;
+    %set/v v00AC8AD8_0, 0, 1;
+    %set/v v00AC8A28_0, 1, 1;
+    %delay 10, 0;
+    %set/v v00AC8AD8_0, 1, 1;
+    %set/v v00AC8A28_0, 0, 1;
+    %delay 10, 0;
+    %set/v v00AC8AD8_0, 0, 1;
+    %set/v v00AC8A28_0, 1, 1;
+    %end;
+    .thread T_2;
+    .scope S_00AC36C0;
+T_3 ;
+    %vpi_call 2 17 "$monitor", "Time = %0d, enable = %b, D = %b, Q = %b", $time, v00AC8AD8_0, v00AC8A28_0, v00AC8A80_0;
+    %end;
+    .thread T_3;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    ".\testbench_d";
+    "./dlatch.v";
