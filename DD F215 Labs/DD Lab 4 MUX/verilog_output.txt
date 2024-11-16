@@ -1,0 +1,9 @@
+VCD info: dumpfile mod_8bit.vcd opened for output.
+time : 0 number = 100  out =  3
+time : 10 number =   9  out = 11
+time : 20 number =  19  out = 13
+time : 30 number =  15  out =  4
+time : 40 number = 198  out =  9
+time : 50 number =  45  out =  7
+time : 60 number = 160  out = 10
+time : 70 number =  82  out = 12

@@ -1,0 +1,11 @@
+VCD info: dumpfile tb_fsm.vcd opened for output.
+Time=0, reset=1, input_signal=0, output_signal=0
+Time=10, reset=0, input_signal=0, output_signal=0
+Time=20, reset=0, input_signal=1, output_signal=0
+Time=45, reset=0, input_signal=0, output_signal=1
+Time=55, reset=0, input_signal=1, output_signal=1
+Time=65, reset=0, input_signal=0, output_signal=0
+Time=75, reset=0, input_signal=1, output_signal=1
+Time=85, reset=0, input_signal=1, output_signal=0
+Time=95, reset=0, input_signal=0, output_signal=1
+Time=105, reset=0, input_signal=0, output_signal=0

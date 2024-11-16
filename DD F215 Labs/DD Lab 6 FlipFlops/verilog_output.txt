@@ -1,0 +1,22 @@
+VCD info: dumpfile memory.vcd opened for output.
+Time: 0, clk: 0, reset: 1, userinput: 1, user: 11000101, q: xxxxxxxx
+Time: 5, clk: 1, reset: 1, userinput: 1, user: 11000101, q: 11000101
+Time: 10, clk: 0, reset: 1, userinput: 1, user: 11110101, q: 11000101
+Time: 12, clk: 0, reset: 1, userinput: 0, user: 11110101, q: 11000101
+Time: 15, clk: 1, reset: 1, userinput: 0, user: 11110101, q: 11111111
+Time: 18, clk: 1, reset: 0, userinput: 0, user: 11110101, q: 00000000
+Time: 20, clk: 0, reset: 0, userinput: 0, user: 11001100, q: 00000000
+Time: 24, clk: 0, reset: 0, userinput: 1, user: 11001100, q: 00000000
+Time: 25, clk: 1, reset: 0, userinput: 1, user: 11001100, q: 00000000
+Time: 28, clk: 1, reset: 1, userinput: 1, user: 11001100, q: 00000000
+Time: 30, clk: 0, reset: 1, userinput: 1, user: 11001100, q: 00000000
+Time: 35, clk: 1, reset: 1, userinput: 1, user: 11001100, q: 11001100
+Time: 36, clk: 1, reset: 1, userinput: 0, user: 11001100, q: 11001100
+Time: 40, clk: 0, reset: 1, userinput: 1, user: 11110000, q: 11001100
+Time: 45, clk: 1, reset: 1, userinput: 1, user: 11110000, q: 11110000
+Time: 50, clk: 0, reset: 1, userinput: 1, user: 00010001, q: 11110000
+Time: 55, clk: 1, reset: 1, userinput: 1, user: 00010001, q: 00010001
+Time: 60, clk: 0, reset: 1, userinput: 1, user: 00010001, q: 00010001
+Time: 65, clk: 1, reset: 1, userinput: 1, user: 00010001, q: 00010001
+testbench_memory.v:31: $finish called at 70 (1s)
+Time: 70, clk: 0, reset: 1, userinput: 1, user: 00010001, q: 00010001

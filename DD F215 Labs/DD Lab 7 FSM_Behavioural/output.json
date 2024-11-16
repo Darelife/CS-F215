@@ -1,0 +1,29 @@
+{
+    "expected_output_1": [
+        {"Time: 0": "Time: 0, reset: 1, t: 0, q: 0"},
+        {"Time: 10": "Time: 10, reset: 0, t: 0, q: 0"},
+        {"Time: 40": "Time: 40, reset: 0, t: 1, q: 0"},
+        {"Time: 45": "Time: 45, reset: 0, t: 1, q: 1"},
+        {"Time: 55": "Time: 55, reset: 0, t: 1, q: 0"},
+        {"Time: 60": "Time: 60, reset: 0, t: 0, q: 0"},
+        {"Time: 70": "Time: 70, reset: 0, t: 1, q: 0"},
+        {"Time: 75": "Time: 75, reset: 0, t: 1, q: 1"},
+        {"Time: 90": "Time: 90, reset: 0, t: 1, q: 1"},
+        {"Time: 95": "Time: 95, reset: 0, t: 1, q: 0"},
+        {"Time: 105": "Time: 105, reset: 1, t: 1, q: 0"},
+        {"Time: 110": "Time: 110, reset: 0, t: 1, q: 0"},
+        {"Time: 115": "Time: 115, reset: 0, t: 1, q: 1"},
+        {"Time: 125": "Time: 125, reset: 0, t: 1, q: 0"}
+    ],
+    "expected_output_2": [
+        {"Time: 0": "Time: 0, reset: 1, input_code: 0, output_code: 00"},
+        {"Time: 10": "Time: 10, reset: 0, input_code: 0, output_code: 00"},
+        {"Time: 30": "Time: 30, reset: 0, input_code: 1, output_code: 00"},
+        {"Time: 55": "Time: 55, reset: 0, input_code: 1, output_code: 10"},
+        {"Time: 65": "Time: 65, reset: 0, input_code: 0, output_code: 00"},
+        {"Time: 75": "Time: 75, reset: 0, input_code: 1, output_code: 00"},
+        {"Time: 85": "Time: 85, reset: 0, input_code: 1, output_code: 01"},
+        {"Time: 95": "Time: 95, reset: 0, input_code: 1, output_code: 00"},
+        {"Time: 115": "Time: 115, reset: 0, input_code: 0, output_code: 00"}
+    ]
+}

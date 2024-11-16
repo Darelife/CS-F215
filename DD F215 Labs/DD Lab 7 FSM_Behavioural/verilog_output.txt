@@ -1,0 +1,11 @@
+VCD info: dumpfile out.vcd opened for output.
+Time: 0, reset: 1, input_code: 0, output_code: 00
+Time: 10, reset: 0, input_code: 0, output_code: 00
+Time: 30, reset: 0, input_code: 1, output_code: 00
+Time: 55, reset: 0, input_code: 1, output_code: 10
+Time: 65, reset: 0, input_code: 0, output_code: 00
+Time: 75, reset: 0, input_code: 1, output_code: 00
+Time: 85, reset: 0, input_code: 1, output_code: 01
+Time: 95, reset: 0, input_code: 1, output_code: 00
+Time: 115, reset: 0, input_code: 0, output_code: 00
+testbench_vending_machine.v:32: $finish called at 135 (1s)

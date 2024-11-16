@@ -1,0 +1,8 @@
+VCD info: dumpfile out.vcd opened for output.
+Time: 0, Enable: 1, S: 1, R: 0, Q: 0, Qbar: 1
+Time: 5, Enable: 1, S: 1, R: 1, Q: 0, Qbar: 1
+Time: 10, Enable: 0, S: 0, R: 1, Q: 0, Qbar: 1
+Time: 15, Enable: 1, S: 0, R: 1, Q: 1, Qbar: 0
+Time: 20, Enable: 1, S: 1, R: 1, Q: 1, Qbar: 0
+Time: 25, Enable: 0, S: 1, R: 0, Q: 1, Qbar: 0
+Time: 30, Enable: 1, S: 0, R: 0, Q: 1, Qbar: 1

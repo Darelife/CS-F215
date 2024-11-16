@@ -1,0 +1,36 @@
+{
+    "expected_output_1": [
+      "time : 0 in0 = 1101 in1=0011 select = 0  out = 1101",
+      "time : 10 in0 = 0010 in1=1100 select = 1  out = 1100"
+    ]
+    ,
+    "expected_output_2": [
+        "time : 0 in0 = 1101 in1 = 0011 in2 = 1010 in3 = 0101 select = 00 out = 1101",
+        "time : 10 in0 = 1101 in1 = 0011 in2 = 1010 in3 = 0101 select = 01 out = 0011",
+        "time : 20 in0 = 1101 in1 = 0011 in2 = 1010 in3 = 0101 select = 10 out = 1010",
+        "time : 30 in0 = 1101 in1 = 0011 in2 = 1010 in3 = 0101 select = 11 out = 0101"
+    ]
+    ,
+    "expected_output_3": [
+        "time : 0 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 000 out = 0001",
+        "time : 10 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 001 out = 0010",
+        "time : 20 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 010 out = 0011",
+        "time : 30 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 011 out = 0100",
+        "time : 40 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 100 out = 0101",
+        "time : 50 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 101 out = 0110",
+        "time : 60 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 110 out = 0111",
+        "time : 70 in0 = 0001 in1 = 0010 in2 = 0011 in3 = 0100 in4 = 0101 in5 = 0110 in6 = 0111 in7 = 1000 select = 111 out = 1000"
+    ]
+    ,
+    "expected_output_4": [
+        "time : 0 number = 100  out =  3",
+        "time : 10 number =   9  out = 11",
+        "time : 20 number =  19  out = 13",
+        "time : 30 number =  15  out =  4",
+        "time : 40 number = 198  out =  9",
+        "time : 50 number =  45  out =  7",
+        "time : 60 number = 160  out = 10",
+        "time : 70 number =  82  out = 12"
+    ]
+  }
+  
