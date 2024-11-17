@@ -5,8 +5,10 @@ module mod16_counter (
 );
 
 always @(negedge clk or negedge rst) begin
-    if (!rst) q <= 4'b0000;
-    else q <= q + 1;
+    if (!rst)
+        q <= 4'b0000; 
+    else
+        q <= q + 1;  
 end
 
 endmodule
