@@ -10,12 +10,16 @@ module tua;
   always #5 clk = ~clk;
 
   initial begin
+    $dumpfile("ud6.vcd");
+    $dumpvars(0,tua);
     reset = 0; clk = 0;
-    m = 1;
+    m = 0;
     #10 reset = 1;
 
     #200
-    m = 0;
+    #10 reset = 0;
+    #10 reset = 1;
+    m = 1;
     #200
 
     $finish;
