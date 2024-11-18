@@ -12,5 +12,5 @@ module r (
   wire t1,t2;
   r1 rr1(clk, reset, o1, t1);
   r2 rr2(t1, reset, o2, t2);
-  r3 rr3(t2|t1, reset, o3);
+  r3 rr3(t2, reset, o3);
 endmodule
